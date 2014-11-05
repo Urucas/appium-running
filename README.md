@@ -17,7 +17,7 @@ appium-running
 
 * inside your source, for ex. a node test
 
-``` javascript
+```javascript
 var ar = require('appium-running');
 ar(4723, function(success){
   if(success) {
