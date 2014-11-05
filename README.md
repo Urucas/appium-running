@@ -5,7 +5,7 @@ Checks if appium is running, answers YES or NO.
 
 Install
 =======
-npm install -g appium-running
+npm install appium-running
 
 Usage
 =====
@@ -16,6 +16,7 @@ appium-running
 ```
 
 * inside your source, for ex. a node test
+
 ``` javascript
 var ar = require('appium-running');
 ar(4723, function(success){
