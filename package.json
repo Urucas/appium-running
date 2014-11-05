@@ -19,7 +19,11 @@
     "index.js",
     "cli.js"
   ],
-  "author": "Urucas <hello@urucas.com>",
+  "author": {
+		"name" : "Urucas",
+		"email" : "hello@urucas.com",
+		"url" : "http://urucas.com"
+	},
   "license": "MIT",
   "dependencies": {
     "colors": "^1.0.3",
