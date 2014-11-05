@@ -25,7 +25,7 @@ if(argv.indexOf("-v") !== -1 || argv.indexOf("--version") !== -1) {
 }
 
 var appiumRunning = require('./index.js');
-appiumRunning(!isNaN(argv[0]) || 4723, function(success){
-	if(success) console.log("YES".cyan);
-	else console.log("NO".red);
-});
+		appiumRunning(argv[0], function(success){
+			if(success) console.log("YES".cyan);
+			else console.log("NO".red);
+		});
