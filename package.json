@@ -1,6 +1,6 @@
 {
   "name": "appium-running",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Checks if appium is running, answer YES or NO",
  	"repository": "https://github.com/vrunoa/appium-running",
   "scripts": {
@@ -19,6 +19,7 @@
     "index.js",
     "cli.js"
   ],
+	"main" : "index.js",
   "author": {
 		"name" : "Urucas",
 		"email" : "hello@urucas.com",
