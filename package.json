@@ -1,0 +1,28 @@
+{
+  "name": "appium-running",
+  "version": "0.0.1",
+  "description": "Checks if appium is running, answer YES or NO",
+ 	"repository": "https://github.com/vrunoa/appium-running",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "appium"
+  ],
+	"bin": {
+    "appium-running": "cli.js"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+	"files": [
+    "index.js",
+    "cli.js"
+  ],
+  "author": "Urucas <hello@urucas.com>",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.0.3",
+    "request": "^2.47.0"
+  }
+}
