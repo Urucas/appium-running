@@ -1,6 +1,6 @@
 {
   "name": "appium-running",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Checks if appium is running, answers YES or NO",
  	"repository": "https://github.com/vrunoa/appium-running",
   "scripts": {
