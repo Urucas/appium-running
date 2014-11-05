@@ -1,7 +1,7 @@
 {
   "name": "appium-running",
   "version": "0.0.5",
-  "description": "Checks if appium is running, answer YES or NO",
+  "description": "Checks if appium is running, answers YES or NO",
  	"repository": "https://github.com/vrunoa/appium-running",
   "scripts": {
     "test": "echo \"I didnt know how to test it, ideas are welcome!\" && exit 1"
