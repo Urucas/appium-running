@@ -19,6 +19,11 @@ if(argv.indexOf("--help") !== -1) {
 	return;
 }
 
+if(argv.indexOf("-v") !== -1 || argv.indexOf("--version") !== -1) {
+	console.log('appium-running '+ ('v.'+pkg.version).cyan);
+	return;
+}
+
 var appiumRunning = require('./index.js');
 appiumRunning(argv[0] || 4723, function(success){
 	if(success) console.log("YES".cyan);
