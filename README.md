@@ -36,4 +36,4 @@ ar(4723, function(success){
 });
 ```
 
-<img src="https://raw.githubusercontent.com/Urucas/appium-running/master/screen.png" />
+<img src="https://raw.githubusercontent.com/Urucas/appium-running/master/appium-running.gif" />
