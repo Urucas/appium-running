@@ -1,34 +1,38 @@
 {
   "name": "appium-running",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Checks if appium is running, answers YES or NO",
- 	"repository": "https://github.com/Urucas/appium-running",
+  "repository": "https://github.com/Urucas/appium-running",
   "scripts": {
     "test": "echo \"I didnt know how to test it, ideas are welcome!\" && exit 1"
   },
   "keywords": [
     "appium"
   ],
-	"preferGlobal" : true, 
-	"bin": {
+  "preferGlobal": true,
+  "bin": {
     "appium-running": "cli.js"
   },
   "engines": {
     "node": ">=0.10.0"
   },
-	"files": [
+  "files": [
     "index.js",
     "cli.js"
   ],
-	"main" : "index.js",
+  "main": "index.js",
   "author": {
-		"name" : "Urucas",
-		"email" : "hello@urucas.com",
-		"url" : "http://urucas.com"
-	},
+    "name": "Urucas",
+    "email": "hello@urucas.com",
+    "url": "http://urucas.com"
+  },
   "license": "MIT",
   "dependencies": {
     "colors": "^1.0.3",
     "request": "^2.47.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "mocha-clean": "^0.4.0"
   }
 }
