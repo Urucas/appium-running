@@ -4,7 +4,7 @@
   "description": "Checks if appium is running, answers YES or NO",
   "repository": "https://github.com/Urucas/appium-running",
   "scripts": {
-    "test": "echo \"I didnt know how to test it, ideas are welcome!\" && exit 1"
+    "test": "node_modules/mocha/bin/mocha test/* -t 5s --require mocha-clean"
   },
   "keywords": [
     "appium"
