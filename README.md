@@ -1,4 +1,4 @@
-appium-running
+appium-running [![Build Status](https://travis-ci.org/Urucas/appium-running.svg?branch=master)](https://travis-ci.org/Urucas/appium-running)
 ==============
 
 Checks if appium is running, answers YES or NO.
