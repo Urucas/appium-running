@@ -1,10 +1,11 @@
 {
   "name": "appium-running",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Checks if appium is running, answers YES or NO",
   "repository": "https://github.com/Urucas/appium-running",
   "scripts": {
-    "test": "node_modules/mocha/bin/mocha test/* -t 5s --require mocha-clean"
+    "test": "node_modules/mocha/bin/mocha test/* -t 5s --require mocha-clean",
+    "start": "node cli.js"
   },
   "keywords": [
     "appium"
