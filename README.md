@@ -1,7 +1,7 @@
 appium-running [![Build Status](https://travis-ci.org/Urucas/appium-running.svg?branch=master)](https://travis-ci.org/Urucas/appium-running)
 ==============
 
-Checks if appium is running, answers YES or NO.
+Tells you if appium is running or available to use, answers YES or NO.
 
 Install
 =======
@@ -9,8 +9,6 @@ npm install -g appium-running
 
 Usage
 =====
-
-* globally
 ```bash 
 appium-running
 
@@ -18,7 +16,7 @@ appium-running
 appium-running 9505  
 ```
 
-* inside your tests; npm install --save appium-running
+**API**
 
 ```javascript
 var ar = require('appium-running');
