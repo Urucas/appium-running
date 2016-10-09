@@ -1,29 +1,18 @@
 appium-running [![Build Status](https://travis-ci.org/Urucas/appium-running.svg?branch=master)](https://travis-ci.org/Urucas/appium-running)
 ==============
 
-Tells you if appium is running or available to use, answers YES or NO.
+Tells you if appium is running or available.
 
 Install
 =======
-npm install -g appium-running
+npm install appium-running
 
 Usage
 =====
-```bash 
-appium-running
-
-# check a different port
-appium-running 9505  
-```
-
-**API**
 
 ```javascript
-var ar = require('appium-running');
-/*
- * ar(port, callback);
- */
-ar(4723, function(success){
+import ar from 'appium-running';
+ar(4723).then( (success) => {
   if(success) {
     console.log("Appium is running, move on!");
     // run test
