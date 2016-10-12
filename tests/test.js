@@ -1,4 +1,5 @@
 import { ar } from "../lib/";
+import isRunning from "../lib/";
 import chai from 'chai';
 import nock from 'nock';
 
@@ -20,7 +21,7 @@ describe("Test ar module", () => {
     nock('http://127.0.0.1:4723')
       .get('/wd/hub/status')
       .reply(200);
-    ar.default().then((success) => {
+    isRunning().then((success) => {
       success.should.equal(true);
       done();
     });
@@ -30,7 +31,7 @@ describe("Test ar module", () => {
     nock('http://127.0.0.1:4723')
       .get('/wd/hub/status')
       .reply(404);
-    ar.default().then((success) => {
+    isRunning().then((success) => {
       success.should.equal(false);
       done();
     });
