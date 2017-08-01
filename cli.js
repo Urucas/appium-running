@@ -24,7 +24,7 @@ if(argv.indexOf("-v") !== -1 || argv.indexOf("--version") !== -1) {
 	return;
 }
 
-var ar = require('./dist/index.js').default;
+var ar = require('./index.js').default;
 ar(argv[0]).then(function(success){
 	if(success) console.log("YES".cyan);
 	else console.log("NO".red);
