@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 'use strict'
-var pkg = require('./package.json');
 var colors = require('colors');
 var argv = process.argv.slice(2);
 if(argv.indexOf("--help") !== -1) {
@@ -20,11 +19,11 @@ if(argv.indexOf("--help") !== -1) {
 }
 
 if(argv.indexOf("-v") !== -1 || argv.indexOf("--version") !== -1) {
-	console.log('appium-running '+ ('v.'+pkg.version).cyan);
+	console.log('appium-running');
 	return;
 }
 
-var ar = require('./dist/index.js').default;
+var ar = require('./index.js').default;
 ar(argv[0]).then(function(success){
 	if(success) console.log("YES".cyan);
 	else console.log("NO".red);
